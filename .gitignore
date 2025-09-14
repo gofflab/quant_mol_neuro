@@ -208,3 +208,6 @@ __marimo__/
 
 # Mac OS BS
 .DS_Store
+
+# Compressed files
+.zip
