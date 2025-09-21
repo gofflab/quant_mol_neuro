@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>core_nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1634709</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>870</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>1e-10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1634709</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>870</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|549806753|ref|NM_001285421.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 10, mRNA</Hit_def>
+  <Hit_accession>NM_001285421</Hit_accession>
+  <Hit_len>3941</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1570.22</Hsp_bit-score>
+      <Hsp_score>1740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>1050</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>870</Hsp_identity>
+      <Hsp_positive>870</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>870</Hsp_align-len>
+      <Hsp_qseq>ATGTGGTATGACTGTGCATCCCAGGAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCGTAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>ATGTGGTATGACTGTGCATCCCAGGAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCGTAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|937834189|ref|NM_001316310.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 12, mRNA</Hit_def>
+  <Hit_accession>NM_001316310</Hit_accession>
+  <Hit_len>3950</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1527.84</Hsp_bit-score>
+      <Hsp_score>1693</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>1059</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>858</Hsp_identity>
+      <Hsp_positive>858</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>863</Hsp_align-len>
+      <Hsp_qseq>TGACTGTGCATCCCAG-GAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCGTAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>TGACTTT-CATCCGGGAGAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCGTAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||| | |||||  | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1767977259|ref|XM_031371313.1|</Hit_id>
+  <Hit_def>PREDICTED: Mastomys coucha brain derived neurotrophic factor (Bdnf), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_031371313</Hit_accession>
+  <Hit_len>3919</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1493.57</Hsp_bit-score>
+      <Hsp_score>1655</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>993</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>853</Hsp_identity>
+      <Hsp_positive>853</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>870</Hsp_align-len>
+      <Hsp_qseq>ATGTGGTATGACTGTGCATCCCAGGAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCGTAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>ATGTGGTATGACTGTGCATCCCGGGAGAAAAGCTGTGGTGTGTGTCGCTGCACCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCCTAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCATGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACAACGACGTCACTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTATACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGTGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCAGGCGGAACGGTCACAGTCCTAGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTACGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| ||||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|397174773|ref|NM_001270634.1|</Hit_id>
+  <Hit_def>Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant 6, mRNA</Hit_def>
+  <Hit_accession>NM_001270634</Hit_accession>
+  <Hit_len>3897</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1433.16</Hsp_bit-score>
+      <Hsp_score>1588</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>998</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>838</Hsp_identity>
+      <Hsp_positive>838</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>862</Hsp_align-len>
+      <Hsp_qseq>TGACTGTGCATCCCAGGAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCGTAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>TGACTTT-CATCCG-GGA-AAAGGCTGTGGTGTGTGTCTCTGCGCCTCAGTGGAGCTGAACAAAC-GATTGCTGAAAATGGTGTCATAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||| | |||||  ||| ||||||||||||||||||| ||||||||||||||||| |||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2330844623|ref|XM_052181391.1|</Hit_id>
+  <Hit_def>PREDICTED: Apodemus sylvaticus brain derived neurotrophic factor (Bdnf), mRNA</Hit_def>
+  <Hit_accession>XM_052181391</Hit_accession>
+  <Hit_len>1237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1430.46</Hsp_bit-score>
+      <Hsp_score>1585</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>993</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>839</Hsp_identity>
+      <Hsp_positive>839</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>870</Hsp_align-len>
+      <Hsp_qseq>ATGTGGTATGACTGTGCATCCCAGGAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCGTAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>ATGTGGTATGACTGTGCATCCCAGGAGGAAGGCTATGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTACTGAAAATGGTTTCCAAAGATTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCGAACGTCCACGGACAAGGCAGCTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCATGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACAACATCACTGGCTGACACTTTCGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGTCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTAAGCAGTCAAGTGCCTTTGGAGCCTCCCCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCTGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCGGGTGGAACGGTTACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACGAAGTGCAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCTCTAACTATGGATAGCAAAAAGAGAATTGGTTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||  ||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||  ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| |||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || || ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|114326460|ref|NM_001048141.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 3, mRNA</Hit_def>
+  <Hit_accession>NM_001048141</Hit_accession>
+  <Hit_len>4001</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1398.9</Hsp_bit-score>
+      <Hsp_score>1550</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>1110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>775</Hsp_align-len>
+      <Hsp_qseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|114326456|ref|NM_001048139.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_001048139</Hit_accession>
+  <Hit_len>4161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1397.09</Hsp_bit-score>
+      <Hsp_score>1548</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>497</Hsp_hit-from>
+      <Hsp_hit-to>1270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>774</Hsp_identity>
+      <Hsp_positive>774</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>774</Hsp_align-len>
+      <Hsp_qseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|549806760|ref|NM_001285420.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 9, mRNA</Hit_def>
+  <Hit_accession>NM_001285420</Hit_accession>
+  <Hit_len>3743</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1397.09</Hsp_bit-score>
+      <Hsp_score>1548</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>852</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>774</Hsp_identity>
+      <Hsp_positive>774</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>774</Hsp_align-len>
+      <Hsp_qseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|549806743|ref|NM_001285422.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 11, mRNA</Hit_def>
+  <Hit_accession>NM_001285422</Hit_accession>
+  <Hit_len>4123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1395.29</Hsp_bit-score>
+      <Hsp_score>1546</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>460</Hsp_hit-from>
+      <Hsp_hit-to>1232</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>773</Hsp_identity>
+      <Hsp_positive>773</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|20126604|gb|AY057907.1|</Hit_id>
+  <Hit_def>Mus musculus brain-derived neurotrophic factor (Bdnf) gene, complete cds, alternatively spliced</Hit_def>
+  <Hit_accession>AY057907</Hit_accession>
+  <Hit_len>80945</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1395.29</Hsp_bit-score>
+      <Hsp_score>1546</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>54441</Hsp_hit-from>
+      <Hsp_hit-to>55213</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>773</Hsp_identity>
+      <Hsp_positive>773</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>1.19565e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>40679</Hsp_hit-from>
+      <Hsp_hit-to>40777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>ATGTGGTATGACTGTGCATCCCAGGAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCGTAAAG</Hsp_qseq>
+      <Hsp_hseq>ATGTGGTATGACTGTGCATCCCAGGAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCGTAAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|22028400|gb|BC034862.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor, mRNA (cDNA clone MGC:41191 IMAGE:1397218), complete cds</Hit_def>
+  <Hit_accession>BC034862</Hit_accession>
+  <Hit_len>1158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1395.29</Hsp_bit-score>
+      <Hsp_score>1546</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>773</Hsp_identity>
+      <Hsp_positive>773</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|114326458|ref|NM_001048142.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 4, mRNA</Hit_def>
+  <Hit_accession>NM_001048142</Hit_accession>
+  <Hit_len>4009</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1395.29</Hsp_bit-score>
+      <Hsp_score>1546</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>1118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>773</Hsp_identity>
+      <Hsp_positive>773</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|549806771|ref|NM_001285419.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 8, mRNA</Hit_def>
+  <Hit_accession>NM_001285419</Hit_accession>
+  <Hit_len>3855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1395.29</Hsp_bit-score>
+      <Hsp_score>1546</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>964</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>773</Hsp_identity>
+      <Hsp_positive>773</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|549806733|ref|NM_001285418.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 7, mRNA</Hit_def>
+  <Hit_accession>NM_001285418</Hit_accession>
+  <Hit_len>3866</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1395.29</Hsp_bit-score>
+      <Hsp_score>1546</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>975</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>773</Hsp_identity>
+      <Hsp_positive>773</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|287898|emb|X55573.1|</Hit_id>
+  <Hit_def>M.musculus brain-derived neurotrophic factor mRNA</Hit_def>
+  <Hit_accession>X55573</Hit_accession>
+  <Hit_len>927</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1394.39</Hsp_bit-score>
+      <Hsp_score>1545</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>827</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>774</Hsp_identity>
+      <Hsp_positive>774</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>775</Hsp_align-len>
+      <Hsp_qseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAAGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|114326462|ref|NM_007540.4|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_007540</Hit_accession>
+  <Hit_len>4302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1394.39</Hsp_bit-score>
+      <Hsp_score>1545</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>637</Hsp_hit-from>
+      <Hsp_hit-to>1411</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>774</Hsp_identity>
+      <Hsp_positive>774</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>775</Hsp_align-len>
+      <Hsp_qseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|549806783|ref|NM_001285416.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 5, mRNA</Hit_def>
+  <Hit_accession>NM_001285416</Hit_accession>
+  <Hit_len>4078</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>1187</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>772</Hsp_identity>
+      <Hsp_positive>772</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>772</Hsp_align-len>
+      <Hsp_qseq>GTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>GTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|549806776|ref|NM_001285417.1|</Hit_id>
+  <Hit_def>Mus musculus brain derived neurotrophic factor (Bdnf), transcript variant 6, mRNA</Hit_def>
+  <Hit_accession>NM_001285417</Hit_accession>
+  <Hit_len>3875</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1391.68</Hsp_bit-score>
+      <Hsp_score>1542</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>984</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>771</Hsp_identity>
+      <Hsp_positive>771</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>771</Hsp_align-len>
+      <Hsp_qseq>TTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>TTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|26328850|dbj|AK033127.1|</Hit_id>
+  <Hit_def>Mus musculus 15 days embryo male testis cDNA, RIKEN full-length enriched library, clone:8030442P22 product:brain derived neurotrophic factor, full insert sequence</Hit_def>
+  <Hit_accession>AK033127</Hit_accession>
+  <Hit_len>3848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1390.78</Hsp_bit-score>
+      <Hsp_score>1541</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>1064</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>772</Hsp_identity>
+      <Hsp_positive>772</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGACTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1679837491|ref|XM_021151236.2|</Hit_id>
+  <Hit_def>PREDICTED: Mus caroli brain derived neurotrophic factor (Bdnf), mRNA</Hit_def>
+  <Hit_accession>XM_021151236</Hit_accession>
+  <Hit_len>1485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1386.27</Hsp_bit-score>
+      <Hsp_score>1536</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>352</Hsp_hit-from>
+      <Hsp_hit-to>1124</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>771</Hsp_identity>
+      <Hsp_positive>771</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTAACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGCTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|12856855|dbj|AK017559.1|</Hit_id>
+  <Hit_def>Mus musculus 8 days embryo whole body cDNA, RIKEN full-length enriched library, clone:5730414D07 product:brain derived neurotrophic factor, full insert sequence</Hit_def>
+  <Hit_accession>AK017559</Hit_accession>
+  <Hit_len>1800</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1386.27</Hsp_bit-score>
+      <Hsp_score>1536</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>1052</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>771</Hsp_identity>
+      <Hsp_positive>771</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTAGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCTTAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1686428204|ref|XM_021192829.2|</Hit_id>
+  <Hit_def>PREDICTED: Mus pahari brain derived neurotrophic factor (Bdnf), mRNA</Hit_def>
+  <Hit_accession>XM_021192829</Hit_accession>
+  <Hit_len>1450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1377.26</Hsp_bit-score>
+      <Hsp_score>1526</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>325</Hsp_hit-from>
+      <Hsp_hit-to>1097</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>769</Hsp_identity>
+      <Hsp_positive>769</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGCCTGACGACGACGTCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGTTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGTGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1929198404|ref|XM_037204438.1|</Hit_id>
+  <Hit_def>PREDICTED: Peromyscus leucopus brain derived neurotrophic factor (Bdnf), mRNA</Hit_def>
+  <Hit_accession>XM_037204438</Hit_accession>
+  <Hit_len>12307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1346.6</Hsp_bit-score>
+      <Hsp_score>1492</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>8688</Hsp_hit-from>
+      <Hsp_hit-to>9545</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>821</Hsp_identity>
+      <Hsp_positive>821</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>870</Hsp_align-len>
+      <Hsp_qseq>ATGTGGTATGACTGTGCATCCCAGGAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGTCGTAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>ATATGGTATGACTGTGCATCCCAGGAGAAAGGCTGTGGTGTGTGCCTCTGTGCCTCAGTAGAGGAGAACAAACTG----CTGAAAATGGTGTCAT-----TCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCATGGACAAGGCGGCTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACG---ACATCACTGGCTGACACTTTTGAACATGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCCCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCTGCAAACATGTCAATGAGAGTCCGGCGCCACTCTGACCCAGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGTGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCGGGTGGGACGGTCACGGTCCTGGAGAAAGTCCCGGTATCGAAAGGCCAACTGAAGCAATATTTCTACGAAACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGTATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAGTCGTATGTTCGGGCGCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||| | ||| |||||||| |||  ||||||||||    |||||||||||||| |     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||| |||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||| || || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||| ||||||||||| ||||| || ||||||||||| ||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| || ||||||||||| ||||| ||||||||||||||||| ||||||||||||||||| ||||||||||| |||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1767977265|ref|XM_031371316.1|</Hit_id>
+  <Hit_def>PREDICTED: Mastomys coucha brain derived neurotrophic factor (Bdnf), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_031371316</Hit_accession>
+  <Hit_len>3831</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1340.29</Hsp_bit-score>
+      <Hsp_score>1485</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>905</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>762</Hsp_identity>
+      <Hsp_positive>762</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>775</Hsp_align-len>
+      <Hsp_qseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCATGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACAACGACGTCACTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTATACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGTGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCAGGCGGAACGGTCACAGTCCTAGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTACGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1767977267|ref|XM_031371317.1|</Hit_id>
+  <Hit_def>PREDICTED: Mastomys coucha brain derived neurotrophic factor (Bdnf), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_031371317</Hit_accession>
+  <Hit_len>4063</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1338.48</Hsp_bit-score>
+      <Hsp_score>1483</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>364</Hsp_hit-from>
+      <Hsp_hit-to>1137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>761</Hsp_identity>
+      <Hsp_positive>761</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>774</Hsp_align-len>
+      <Hsp_qseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCATGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACAACGACGTCACTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTATACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGTGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCAGGCGGAACGGTCACAGTCCTAGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTACGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1767977271|ref|XM_031371319.1|</Hit_id>
+  <Hit_def>PREDICTED: Mastomys coucha brain derived neurotrophic factor (Bdnf), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_031371319</Hit_accession>
+  <Hit_len>4027</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1336.68</Hsp_bit-score>
+      <Hsp_score>1481</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>329</Hsp_hit-from>
+      <Hsp_hit-to>1101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>760</Hsp_identity>
+      <Hsp_positive>760</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCATGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACAACGACGTCACTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTATACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGTGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCAGGCGGAACGGTCACAGTCCTAGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTACGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1767977263|ref|XM_031371315.1|</Hit_id>
+  <Hit_def>PREDICTED: Mastomys coucha brain derived neurotrophic factor (Bdnf), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_031371315</Hit_accession>
+  <Hit_len>4141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1335.78</Hsp_bit-score>
+      <Hsp_score>1480</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>1215</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>761</Hsp_identity>
+      <Hsp_positive>761</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>775</Hsp_align-len>
+      <Hsp_qseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCATGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACAACGACGTCACTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTATACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGTGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCAGGCGGAACGGTCACAGTCCTAGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTACGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1767977261|ref|XM_031371314.1|</Hit_id>
+  <Hit_def>PREDICTED: Mastomys coucha brain derived neurotrophic factor (Bdnf), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_031371314</Hit_accession>
+  <Hit_len>3843</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1334.88</Hsp_bit-score>
+      <Hsp_score>1479</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>917</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>759</Hsp_identity>
+      <Hsp_positive>759</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>772</Hsp_align-len>
+      <Hsp_qseq>GTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>GTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCATGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACAACGACGTCACTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTATACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGTGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCAGGCGGAACGGTCACAGTCCTAGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTACGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1767977269|ref|XM_031371318.1|</Hit_id>
+  <Hit_def>PREDICTED: Mastomys coucha brain derived neurotrophic factor (Bdnf), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_031371318</Hit_accession>
+  <Hit_len>3980</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1334.88</Hsp_bit-score>
+      <Hsp_score>1479</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>1054</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>759</Hsp_identity>
+      <Hsp_positive>759</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>772</Hsp_align-len>
+      <Hsp_qseq>GTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>GTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCATGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACAACGACGTCACTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTATACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGTGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCAGGCGGAACGGTCACAGTCCTAGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTACGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|397174771|ref|NM_001270633.1|</Hit_id>
+  <Hit_def>Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant 5, mRNA</Hit_def>
+  <Hit_accession>NM_001270633</Hit_accession>
+  <Hit_len>4010</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1331.27</Hsp_bit-score>
+      <Hsp_score>1475</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>337</Hsp_hit-from>
+      <Hsp_hit-to>1111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>760</Hsp_identity>
+      <Hsp_positive>760</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>775</Hsp_align-len>
+      <Hsp_qseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|3053553104|ref|XM_076570253.1|</Hit_id>
+  <Hit_def>PREDICTED: Peromyscus maniculatus bairdii brain derived neurotrophic factor (Bdnf), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_076570253</Hit_accession>
+  <Hit_len>1853</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1329.47</Hsp_bit-score>
+      <Hsp_score>1473</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>607</Hsp_hit-from>
+      <Hsp_hit-to>1470</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>819</Hsp_identity>
+      <Hsp_positive>819</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>871</Hsp_align-len>
+      <Hsp_qseq>TGGTATGACTGTGCATCCCAGGAGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAAATGGTGT-CGTAAAGT---TCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>TGGTATGACTGCGCATCCCAGGAGAAAGGCTGTGGTGTGTGCCTCTGTGACTCAGTGGAGGAGAACAAACTG----CTGAAAATGGTGGGCTTTTTGTCCTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCATGGACAAGGCGGCTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACG---ACATCACTGGCTGACACTTTTGAACATGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCCCTGCTTTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCTGCAAACATGTCTATGAGAGTCCGGCGCCACTCTGACCCAGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGTGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCGGGTGGGACGGTCACGGTCCTGGAGAAAGTCCCGGTATCGAAAGGCCAACTGAAGCAATATTTCTACGAAACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGTATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAGTCGTATGTTCGGGCGCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||||||||||||||||||| | ||| | ||||||||||  ||||||||||    ||||||||||||  | |   ||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||| |||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||| || || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || || ||||||||||||||||||||||||||||||||||| ||||||||||||||||| || ||||||||||| ||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| || ||||||||||| ||||| ||||||||||||||||| ||||||||||||||||| ||||||||||| |||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|397174781|ref|NM_001270638.1|</Hit_id>
+  <Hit_def>Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant 10, mRNA</Hit_def>
+  <Hit_accession>NM_001270638</Hit_accession>
+  <Hit_len>3751</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1329.47</Hsp_bit-score>
+      <Hsp_score>1473</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>852</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>759</Hsp_identity>
+      <Hsp_positive>759</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>774</Hsp_align-len>
+      <Hsp_qseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|397174767|ref|NM_001270631.1|</Hit_id>
+  <Hit_def>Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant 3, mRNA</Hit_def>
+  <Hit_accession>NM_001270631</Hit_accession>
+  <Hit_len>4169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1329.47</Hsp_bit-score>
+      <Hsp_score>1473</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>497</Hsp_hit-from>
+      <Hsp_hit-to>1270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>759</Hsp_identity>
+      <Hsp_positive>759</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>774</Hsp_align-len>
+      <Hsp_qseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|397174777|ref|NM_001270637.1|</Hit_id>
+  <Hit_def>Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant 9, mRNA</Hit_def>
+  <Hit_accession>NM_001270637</Hit_accession>
+  <Hit_len>3874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1327.66</Hsp_bit-score>
+      <Hsp_score>1471</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>975</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>758</Hsp_identity>
+      <Hsp_positive>758</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|220996|dbj|D10938.1|RATSDBDNF</Hit_id>
+  <Hit_def>Rattus norvegicus gene for brain-derived neurotrophic factor, complete cds</Hit_def>
+  <Hit_accession>D10938</Hit_accession>
+  <Hit_len>4035</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1327.66</Hsp_bit-score>
+      <Hsp_score>1471</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>2101</Hsp_hit-from>
+      <Hsp_hit-to>2873</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>758</Hsp_identity>
+      <Hsp_positive>758</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|397174775|ref|NM_001270635.1|</Hit_id>
+  <Hit_def>Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant 7, mRNA</Hit_def>
+  <Hit_accession>NM_001270635</Hit_accession>
+  <Hit_len>3896</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1327.66</Hsp_bit-score>
+      <Hsp_score>1471</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>997</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>758</Hsp_identity>
+      <Hsp_positive>758</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|203124|gb|M61178.1|RATBDNFB</Hit_id>
+  <Hit_def>Rat brain-derived neurotrophic factor (BDNF) gene, complete cds</Hit_def>
+  <Hit_accession>M61178</Hit_accession>
+  <Hit_len>1169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1327.66</Hsp_bit-score>
+      <Hsp_score>1471</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>878</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>758</Hsp_identity>
+      <Hsp_positive>758</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|397174763|ref|NM_001270630.1|</Hit_id>
+  <Hit_def>Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant 1, mRNA</Hit_def>
+  <Hit_accession>NM_001270630</Hit_accession>
+  <Hit_len>4018</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1327.66</Hsp_bit-score>
+      <Hsp_score>1471</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>1119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>758</Hsp_identity>
+      <Hsp_positive>758</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|203122|gb|M61175.1|RATBDNF</Hit_id>
+  <Hit_def>Rat brain-derived neurotrophic factor (BDNF) mRNA, complete cds</Hit_def>
+  <Hit_accession>M61175</Hit_accession>
+  <Hit_len>1085</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1327.66</Hsp_bit-score>
+      <Hsp_score>1471</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>822</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>758</Hsp_identity>
+      <Hsp_positive>758</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|56388793|gb|BC087634.1|</Hit_id>
+  <Hit_def>Rattus norvegicus brain derived neurotrophic factor, mRNA (cDNA clone MGC:105254 IMAGE:7319966), complete cds</Hit_def>
+  <Hit_accession>BC087634</Hit_accession>
+  <Hit_len>1625</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1327.66</Hsp_bit-score>
+      <Hsp_score>1471</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>1105</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>758</Hsp_identity>
+      <Hsp_positive>758</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|397174765|ref|NM_012513.4|</Hit_id>
+  <Hit_def>Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant 2, mRNA</Hit_def>
+  <Hit_accession>NM_012513</Hit_accession>
+  <Hit_len>4309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1326.76</Hsp_bit-score>
+      <Hsp_score>1470</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>636</Hsp_hit-from>
+      <Hsp_hit-to>1410</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>759</Hsp_identity>
+      <Hsp_positive>759</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>775</Hsp_align-len>
+      <Hsp_qseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|397174769|ref|NM_001270632.1|</Hit_id>
+  <Hit_def>Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant 4, mRNA</Hit_def>
+  <Hit_accession>NM_001270632</Hit_accession>
+  <Hit_len>4086</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1325.86</Hsp_bit-score>
+      <Hsp_score>1469</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>1187</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>757</Hsp_identity>
+      <Hsp_positive>757</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>772</Hsp_align-len>
+      <Hsp_qseq>GTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>GTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2678927136|ref|XM_006234684.5|</Hit_id>
+  <Hit_def>PREDICTED: Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_006234684</Hit_accession>
+  <Hit_len>1553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1325.86</Hsp_bit-score>
+      <Hsp_score>1469</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>285</Hsp_hit-from>
+      <Hsp_hit-to>1056</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>757</Hsp_identity>
+      <Hsp_positive>757</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>772</Hsp_align-len>
+      <Hsp_qseq>GTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>GTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|397174779|ref|NM_001270636.1|</Hit_id>
+  <Hit_def>Rattus norvegicus brain-derived neurotrophic factor (Bdnf), transcript variant 8, mRNA</Hit_def>
+  <Hit_accession>NM_001270636</Hit_accession>
+  <Hit_len>3882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1324.06</Hsp_bit-score>
+      <Hsp_score>1467</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>983</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>756</Hsp_identity>
+      <Hsp_positive>756</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>771</Hsp_align-len>
+      <Hsp_qseq>TTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>TTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|3056790689|ref|XM_034496309.2|</Hit_id>
+  <Hit_def>PREDICTED: Arvicanthis niloticus brain derived neurotrophic factor (Bdnf), mRNA</Hit_def>
+  <Hit_accession>XM_034496309</Hit_accession>
+  <Hit_len>4022</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1318.65</Hsp_bit-score>
+      <Hsp_score>1461</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>341</Hsp_hit-from>
+      <Hsp_hit-to>1113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>756</Hsp_identity>
+      <Hsp_positive>756</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTGTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCCAACGTCCACGGACAAGGCAACTTGGCCTACCCCGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACAACGACGTCACTGGCTGACACCTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCGGGCGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCCGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| ||||||||||||||||  |||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1820987306|ref|XM_032903864.1|</Hit_id>
+  <Hit_def>PREDICTED: Rattus rattus brain derived neurotrophic factor (Bdnf), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_032903864</Hit_accession>
+  <Hit_len>4012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1317.75</Hsp_bit-score>
+      <Hsp_score>1460</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>337</Hsp_hit-from>
+      <Hsp_hit-to>1111</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>757</Hsp_identity>
+      <Hsp_positive>757</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>775</Hsp_align-len>
+      <Hsp_qseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCCCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACTTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCTCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1820987308|ref|XM_032903865.1|</Hit_id>
+  <Hit_def>PREDICTED: Rattus rattus brain derived neurotrophic factor (Bdnf), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_032903865</Hit_accession>
+  <Hit_len>4171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1315.94</Hsp_bit-score>
+      <Hsp_score>1458</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>497</Hsp_hit-from>
+      <Hsp_hit-to>1270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>756</Hsp_identity>
+      <Hsp_positive>756</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>774</Hsp_align-len>
+      <Hsp_qseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCCCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACTTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCTCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1621849008|ref|XM_028766921.1|</Hit_id>
+  <Hit_def>PREDICTED: Grammomys surdaster brain derived neurotrophic factor (Bdnf), mRNA</Hit_def>
+  <Hit_accession>XM_028766921</Hit_accession>
+  <Hit_len>3984</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1314.14</Hsp_bit-score>
+      <Hsp_score>1456</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>1089</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>755</Hsp_identity>
+      <Hsp_positive>755</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCCGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCCAGAGGTCTGACGACGACGTCACTGGCTGACACCTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAATCATAAGGACGCGGACTTGTACACTTCCCGAGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGATCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCGGGCGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACAAAGGAAGGCTGCCGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1820987300|ref|XM_032903861.1|</Hit_id>
+  <Hit_def>PREDICTED: Rattus rattus brain derived neurotrophic factor (Bdnf), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032903861</Hit_accession>
+  <Hit_len>4020</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1314.14</Hsp_bit-score>
+      <Hsp_score>1456</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>1119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>755</Hsp_identity>
+      <Hsp_positive>755</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCCCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACTTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCTCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1820987304|ref|XM_032903863.1|</Hit_id>
+  <Hit_def>PREDICTED: Rattus rattus brain derived neurotrophic factor (Bdnf), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_032903863</Hit_accession>
+  <Hit_len>4311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1313.24</Hsp_bit-score>
+      <Hsp_score>1455</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>870</Hsp_query-to>
+      <Hsp_hit-from>636</Hsp_hit-from>
+      <Hsp_hit-to>1410</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>756</Hsp_identity>
+      <Hsp_positive>756</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>775</Hsp_align-len>
+      <Hsp_qseq>AAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGTAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGGTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACATCACTGGCTGACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGACGGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACCAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_qseq>
+      <Hsp_hseq>AATGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTACTATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGCAAACGTCCACGGACAAGGCAACTTGGCCTACCCAGCTGTGCGGACCCATGGGACTCTGGAGAGCGTGAATGGGCCCAGGGCAGGTTCGAGAGGTCTGACGACGACGTCCCTGGCTGACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATGAGGACCAGAAGGTTCGGCCCAACGAAGAAAACCATAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTTTGGAGCCCCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACTTGGATGCCGCAAACATGTCTATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAGTATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGACGGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGAGACCAAGTGTAATCCCATGGGTTACACGAAGGAAGGCTGCAGGGGCATAGACAAAAGGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCTCTTACTATGGATAGCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGACCATTAAAAGGGGAAGATAG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||| ||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1606561</Statistics_db-num>
+      <Statistics_db-len>949889135199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

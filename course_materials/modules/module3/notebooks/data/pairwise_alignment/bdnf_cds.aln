@@ -1,0 +1,122 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+Homo            ------------------------------------------------------------
+Mus             ------------------------------------------------------------
+Rattus          ATGTCTGACCCCAGTGCCTGGCGCTGGCTGAGCTCTGGGTGCCCGCCGCTGCCGCCGCGC
+Danio           ------------------------------------------------------------
+                                                                            
+
+Homo            ------------------------------------------------------------
+Mus             ------------------------------------------------------------
+Rattus          CGGGGCGCACCCGCTGGCTGGCTGTCGCACGGTCCCCATTGCGCCCGGGACTCCCCGGCT
+Danio           ------------------------------------------------------------
+                                                                            
+
+Homo            ------------------------------------------------------------
+Mus             ------------------------------------------------------------
+Rattus          TGGAGAAGGAAACCGCCTGGGGCGGCGCGCCACCTCCGCCTGGCAGGCTTTGATGAGACC
+Danio           ------------------------------------------------------------
+                                                                            
+
+Homo            ------------------------------------------------------------
+Mus             ----------------------------------ATGTGGTATGAC-TGTGCATCCCAGG
+Rattus          GGGTTCCCTCAGCTCGCCACCGCTGCTTTGGGGCAGACGAGAAAGCGCACGGGGCCCAGG
+Danio           ------------------------------------------------------------
+                                                                            
+
+Homo            ------------------------------------------------------------
+Mus             AGAAAGGCTGTGGTGTGTGTCGCTGCGCCTCAGTGGAGCCGAACAAACTGATTGCTGAAA
+Rattus          -GCAGGGCGCAGGGACCAGGAGCGTGACAACAATGTGACTCCACTGCCGGGGATCCGAGA
+Danio           ------------------------------------------------------------
+                                                                            
+
+Homo            ------------------------------------------------------------
+Mus             ATGGTGT-----CGTAAAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTAC
+Rattus          GCTTTGTGTGGACCCTGAGTTCCACCAGGTGAGAAGAGTGATGACCATCCTTTTCCTTAC
+Danio           ----------------------------------------ATGACCATCCTGTTCGTTAC
+                                                                            
+
+Homo            ------------------------------------------------------------
+Mus             TATGGTTATTTCATACTTCGGTTGCATGAAGGCGGCGCCCATGAAAGAAGT---AAACGT
+Rattus          TATGGTTATTTCATACTTCGGTTGCATGAAGGCTGCGCCCATGAAAGAAGC---AAACGT
+Danio           TATGGTTATTTCATACTTCAGTTGCATGAGAGCTGCGCCCATGAGAGAGATCCCGGGCGT
+                                                                            
+
+Homo            ------------------------------------------------------------
+Mus             CCACGGA---CAAGGCAACTTGGCCTACCCAGGTGT-GCGGACCCATGGGACTCTGGAGA
+Rattus          CCACGGA---CAAGGCAACTTGGCCTACCCAGCTGT-GCGGACCCATGGGACTCTGGAGA
+Danio           GCAGGGGGGCCACCGGGCCGAGGGCTACCTGGGCGCCGCTGCCGCTGCTGCCGCTGCCGT
+                                                                            
+
+Homo            ------------------------------------------------------------
+Mus             -GCGTGAATGGGCCCAGGGCA---GGTTCGAGAGGTCTGACGACGACATCACTGGCT---
+Rattus          -GCGTGAATGGGCCCAGGGCA---GGTTCGAGAGGTCTGACGACGACGTCCCTGGCT---
+Danio           CACATCGGGCAGCCGAGGCCACGGGACTCCACAGAGTGGGGGCGGGCTGCCCTCGCTCAC
+                                                                            
+
+Homo            ------------------------------------------------------------
+Mus             -GACACTTTTGAGCACGTCATCGAAGAGCTGCTGGATG----------------------
+Rattus          -GACACTTTTGAGCACGTGATCGAAGAGCTGCTGGATG----------------------
+Danio           GGACACTTTCGAGCAGGTCATTGAGGAGTTGCTTGAGGTGGAAGGGGAAGCGACGCAGCA
+                                                                            
+
+Homo            -----------------------------------------------ATGTCTTTGTGTG
+Mus             --------------------AGGACCA--GAAGGTTCGGCCCAACGAA----GAAAACCA
+Rattus          --------------------AGGACCA--GAAGGTTCGGCCCAACGAA----GAAAACCA
+Danio           ACTGGGGCCTGGGGCCGACCAGGGCCAAGGAGGGGGCGGCCCTATAGATGCGGCAGACTC
+                                                               *            
+
+Homo            AAGACATGCTGCTTTGTAATTATCGAAAGTGTCGCATCAAACTCTCTGGCTATGCATGGG
+Mus             TAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTT---TGGA
+Rattus          TAAGGACGCGGACTTGTACACTTCCCGGGTGATGCTCAGCAGTCAAGTGCCTT---TGGA
+Danio           GAAGGACGTTGACCTGTATGCCTCGCGGGTGATGATCAGCAACCAAGTGCCTT---TGGA
+                 *   * *  *   ****    **    ***  *      *  *    **  *   *** 
+
+Homo            TCACTGCCTGCTCTCACATCTTCTGTGATC--AGCATGGCAGTGGTGAGTTTAGTCGCTC
+Mus             GCCTCCTCTACTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTC
+Rattus          GCCTCCTCTGCTCTTTCTGCTGGAGGAATACAAAAATTACCTGGATGCCGCAAACATGTC
+Danio           GCCGCCGTTACTCTTTCTCTTGGAGGAATACAAAAACTACCTGGATGCCGCCAACATGTC
+                 *      * ****  *   *   *  **   *  *   *   * **     *     **
+
+Homo            ACCAGCTATCTGTCCTGCCTGCAACAGTACCCTTTCTGGAAAGCTAGATAT-TGTCCGCA
+Mus             TATGAGGGTTCGGCGCCACTCCGACCCTGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAG
+Rattus          TATGAGGGTTCGGCGCCACTCCGACCCCGCCCGCCGTGGGGAGCTGAGCGTGTGTGACAG
+Danio           GATGCGTGTGCGGCGACACTCGGACCCCGCACGGCGGGGGGAGCTCAGCGTTTGTGACAG
+                        *  * *    **   **    * *     **  ****     * ***     
+
+Homo            CAGAACTCAGTCCAT--CAGAGGAATATAAAGCTATGGTATTGG-CAGGACTG--CGACC
+Mus             TATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCTGGCGGGAC
+Rattus          TATTAGCGAGTGGGTCACAGCGGCAGATAAAAAGACTGCAGTGGACATGTCCGGTGGGAC
+Danio           TATTAGCCAGTGGGTGACAGCTGTGGACAAAAAGACGGCAATAGACATGTCGGGCCAGAC
+                 *  *   ***   *  ***  *   * ***   *  * * * * ** * * *      *
+
+Homo            AGAGATCGTGTTGGACA-----TTAGCTCCCGAGCGCTGGCCTTCTGGACATATCAGGTA
+Mus             GGTCACAGTCCTAGAGAAAGTCCCGGTATCCAAAGGCCAACTGAAGCAGTATTTCTACGA
+Rattus          GGTCACAGTCCTGGAGAAAGTCCCGGTATCAAAAGGCCAACTGAAGCAATATTTCTACGA
+Danio           GGTCACCGTTCTGGAGAAGGTCCCCGTGACTAATGGTCAGCTGAAGCAATACTTTTACGA
+                 *  *  **  * ** *        *   *  *  *    *         *  *     *
+
+Homo            CATCAGGAACGTCTCTATCAAGAATACAATTTCAGCAAGGCTG-AGGGCCATCTGAAACA
+Mus             GACCAAGTGTAATCCCATGGGTTACACCA----AGGAAGGCTGCAGGGGCATAGACAAAA
+Rattus          GACCAAGTGTAATCCCATGGGTTACACGA----AGGAAGGCTGCAGGGGCATAGACAAAA
+Danio           GACCAAATGCAACCCCTTGGGGTACACAA----AGGAGGGCTGCCGAGGAATAGACAAGC
+                 * **         *  *     * ** *    ** * *****  * *  **    **  
+
+Homo            GATGGAGAAG------ATATATACTCAGCAAATACAAAG--CAAGGATGTAGAATTGACC
+Mus             GGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATA
+Rattus          GGCACTGGAACTCGCAATGCCGAACTACCCAATCGTATGTTCGGGCCCTTACTATGGATA
+Danio           GGCACTATAACTCGCAATGCCGGACAACCCAGTCTTACGTGCGAGCCCTTACCATGGATA
+                *       *       **        * * * *   * *  *  *    **  ** **  
+
+Homo            TCTATGAAAGGGGAGGTTACC--TCCATGAAGA-AAGTACTAGAAGAATACAAG------
+Mus             GCAAAAAGAGAATTGGCTGGCGATTCATAAGGATAGACACTTCCTGTGTATGTACACTGA
+Rattus          GCAAAAAGAGAATTGGCTGGCGGTTCATAAGGATAGACACTTCCTGTGTATGTACACTGA
+Danio           GCAAAAGGAAGATCGGCTGGCGGTTTATACGGATAGACACTTCGTGTGTATGCACATTGA
+                 * *    *     ** *  *  *  **   ** *   ***    *  **          
+
+Homo            --------------------
+Mus             CCATTAAAAGGGGAAGATAG
+Rattus          CCATTAAAAGGGGAAGATAG
+Danio           CCATTAAGAGGGGCAGATAG
+                                    
