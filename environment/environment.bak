@@ -1,0 +1,16 @@
+name: neurogenomics
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - click
+  - notebook
+  - matplotlib
+  - seaborn
+  - numpy
+  - pandas
+  - plotnine
+  - scikit-learn
+  - tldr
+  - wget
